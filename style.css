@@ -61,7 +61,44 @@ body{
 
     box-shadow: 2px 4px 2px 0px rgba(0, 0, 0, 0.15);
 
-    position: relative;
+    background-image: url(imagens/linha.png); 
+    background-position-x: 50px;
+    background-repeat: no-repeat;
+    background-size: 1vmax 100vmax;
+
+}
+
+.div-proj{
+    background-color: rgb(0, 92, 173);
+    padding: 1vmax;
+    margin: 1vmax;
+
+    border-top-left-radius:     3px;
+    border-top-right-radius:    3px;
+    border-bottom-left-radius:  3px;
+    border-bottom-right-radius: 3px;
+
+    box-shadow: 2px 4px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+.proj1{
+
+    background-color: rgb(0, 92, 173);
+
+    border-top-left-radius:     3px;
+    border-top-right-radius:    3px;
+    border-bottom-left-radius:  3px;
+    border-bottom-right-radius: 3px;
+
+    padding: 1vmax;
+    margin: 0.5vmax;
+
+    border: 0.3vmax aliceblue solid;
+
+    background-image: url(imagens/tcc.jpeg); 
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 25%;
 }
 
 h1{
@@ -156,71 +193,30 @@ a{
     color: aliceblue;
 }
 
-.tempo1{
+.ball1{
     border-radius: 100%;
     border: 5px aliceblue solid;
 
-    width: 4vmax;
-    height: 4vmax;
+    width: 73px;
+    height: 73px;
 
-    margin-left: 40vmax;
+    margin-top: 40px;
 
 }
 
-.tempo2{
+.ballult{
     border-radius: 100%;
     border: 5px aliceblue solid;
 
-    width: 4vmax;
-    height: 4vmax;
+    width:  73px;
+    height: 73px;
 
-    margin-left: 60vmax;
-
-}
-
-.tempo3{
-    border-radius: 100%;
-    border: 5px aliceblue solid;
-
-    width: 4vmax;
-    height: 4vmax;
-
-    margin-left: 80vmax;
+    margin-top: 100px;
+    margin-bottom: 40px;
 
 }
 
-.linha{
-    margin-top: 1.8vmax;
 
-    max-width: 85vmax;
-    height: 1vmax;; 
-    width: 10000px;
-    
-    border-top-left-radius:     20px;
-    border-top-right-radius:    20px;
-    border-bottom-left-radius:  20px;
-    border-bottom-right-radius: 20px;
-
-
+.alin-dir{
+    text-align: right;
 }
-
-.relative{
-    position: relative;
-}
-.absolute{
-    margin-top: 6px;
-    position: absolute;
-}
-
-.imgf{
-    width: 100vmax;
-    max-width: 85vmax;
-    max-height: 10vmax;
-}
-
-.texto-centro{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
